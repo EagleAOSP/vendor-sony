@@ -1,3 +1,7 @@
+#
+# This is list of blobs camera deamon and camera main HAL require.
+# After first builds I will know which blobs I am missing.
+#
 
 warning: blob file liboemcamera.so missing or broken
 warning: blob file libmmcamera2_stats_modules.so missing or broken
@@ -6,19 +10,11 @@ warning: blob file libmmcamera2_isp_modules.so missing or broken
 warning: blob file libmmcamera2_sensor_modules.so missing or broken
 warning: blob file libmmcamera2_pproc_modules.so missing or broken
 warning: blob file libmmcamera2_imglib_modules.so missing or broken
-vendor/manufacturer/device/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
+
 
 ------------------------------------------------------------------------
 
 warning: blob file libmmcamera_interface.so missing or broken
-vendor/manufacturer/device/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so
-vendor/manufacturer/device/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so
-vendor/manufacturer/device/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
-vendor/manufacturer/device/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so
-vendor/manufacturer/device/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so
-vendor/manufacturer/device/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so
-vendor/manufacturer/device/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so
-vendor/manufacturer/device/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so
 warning: blob file libmorpho_denoiser.so missing or broken
 warning: blob file libmorpho_image_stabilizer3.so missing or broken
 warning: blob file libmorpho_movie_stabilizer3.so missing or broken
@@ -30,9 +26,8 @@ warning: blob file libmorpho_edit_engine.so missing or broken
 warning: blob file libmorpho_object_tracker2.so missing or broken
 warning: blob file libmorpho_fdw.so missing or broken
 warning: blob file libmorpho_super_resolution.so missing or broken
-vendor/manufacturer/device/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so
 warning: blob file libdiag.so missing or broken
-vendor/manufacturer/device/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so
+
 ------------------------------------------------------------------------
-lozohcum@Ubuntu14Lozohcum:~/blob$ 
+
 
