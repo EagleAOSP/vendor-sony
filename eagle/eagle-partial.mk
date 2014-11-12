@@ -14,6 +14,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/rild:system/bin/rild \
+    vendor/sony/eagle/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/eagle/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/sony/eagle/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/sony/eagle/proprietary/lib/libril.so:system/lib/libril.so \
